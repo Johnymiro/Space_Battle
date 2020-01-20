@@ -159,13 +159,11 @@ function update() {
     );
 
     ctx.lineTo( // rear right
-
         ship.x - ship.r * (2 / 3 * Math.cos(ship.a) + Math.sin(ship.a)),
         ship.y + ship.r * (2 / 3 * Math.sin(ship.a) - Math.cos(ship.a))
     );
 
      ctx.lineTo( // rear right
-
         ship.x - ship.r * (2 / 3 * Math.cos(ship.a) - Math.sin(ship.a)),
         ship.y + ship.r * (2 / 3 * Math.sin(ship.a) + Math.cos(ship.a))
     );
