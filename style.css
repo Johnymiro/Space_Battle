@@ -1,0 +1,10 @@
+.main {
+    text-align: center;
+    margin-top: 60px;
+}
+
+canvas {
+    border-style: solid;
+    border-width: 8px;
+    border-color: burlywood;
+}
